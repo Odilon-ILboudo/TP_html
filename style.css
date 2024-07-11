@@ -1,0 +1,171 @@
+
+/*variables*/
+:root{
+     --box-shadow: 0 8px 16px rgba(0, 0, 0, .5);
+}
+
+
+
+
+*{
+    margin-top: 1%;
+    transition: all .2s linear;
+}
+
+/*index**********************************************************************/
+
+#en_tête{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    box-shadow: var(--box-shadow);
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-bottom: 2.5%;
+    padding-top: 15px;
+}
+
+#nom{
+    font-weight: bold ;
+    font-size: 40px;
+}
+
+
+#pages a{
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+
+}
+
+#pages a:hover{
+    letter-spacing: 2px;
+}
+
+
+
+#img_desc{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#img_desc p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#img_desc span{
+    font-weight: bold;
+}
+
+#img_desc img{
+    width: 100%;
+    height: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer img{
+    height: 30px;
+}
+
+#bas, footer{
+    text-align: center;
+}
+
+
+
+/**********Menu****************************************************************/
+
+
+h2{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/****************Contact***************************************************/
+
+
+form {
+    max-width: 100%;
+    text-align: center;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+form label{
+    font-size: 25px;
+}
+
+form .nom input,
+form .prenom input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+form .sub input{
+    width: 200px;
+    height: 40px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+form .sub input:hover{
+    letter-spacing: 4px;
+}
+
+form textarea{
+   
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+iframe {
+    width: 100%;
+    text-align: center;
+}
